@@ -1,0 +1,8 @@
+# Local backups created by install.ps1
+*.bak.*
+
+# Editor and operating-system noise
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
