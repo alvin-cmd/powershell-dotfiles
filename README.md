@@ -8,16 +8,26 @@ A small Windows-first PowerShell setup with a clean prompt, useful shell integra
               _-o#&&*''''?d:>b\_                 alvin@Alvin
           _o/"`''  '',, dMF9MMMMMHo_             ────────────────────────────────────
        .o&#'        `"MbHMMMMMMMMMMMHo.          OS  Windows 11 Pro 25H2 x86_64
-     .o"" '         vodM*$&&HMMMMMMMMMM?.        Host  NOVA-STATION X1
-    ,'              $M&ood,~'`(&##MMMMMMH\       Kernel  WIN32_NT 10.0.26100.1
+     .o"" '         vodM*$$&&HMMMMMMMMMM?.       Host  NOVA-STATION X1
+    ,'              $$M&ood,~'`(&##MMMMMMH\       Kernel  WIN32_NT 10.0.26100.1
    /               ,MMMMMMM#b?#bobMMMMHMMML      Uptime  2 hours, 14 mins
-  &              ?MMMMMMMMMMMMMMMMM7MMM$R*Hk     ────────────────────────────────────
- ?$.            :MMMMMMMMMMMMMMMMMMM/HMMM|`*L    Shell  PowerShell 7.6.3
+  &              ?MMMMMMMMMMMMMMMMM7MMM$$R*Hk    ────────────────────────────────────
+ ?$$.            :MMMMMMMMMMMMMMMMMMM/HMMM|`*L   Shell  PowerShell 7.6.3
 |               |MMMMMMMMMMMMMMMMMMMMbMH'   T,   Terminal  Windows Terminal
 $H#:            `*MMMMMMMMMMMMMMMMMMMMb#}'  `?   ────────────────────────────────────
 ]MMH#             ""*""""*#MMMMMMMMMMMMM'    -   CPU  AMD Ryzen 9 9950X3D (32) @ 5.7 GHz
 MMMMMb_                   |MMMMMMMMMMMP'     :   GPU  NVIDIA GeForce RTX 5090 (32 GiB)
 HMMMMMMMHo                 `MMMMMMMMMT       .   Memory  24.0 GiB / 128.0 GiB (19%)
+?MMMMMMMMP                  9MMMMMMMM}       -
+-?MMMMMMM                  |MMMMMMMMM?,d-    '
+ :|MMMMMM-                 `MMMMMMMT .M|.   :
+  .9MMM[                    &MMMMM*' `'    .
+   :9MMk                    `MMM#"        -
+     &M}                     `          .-
+      `&.                             .
+        `~,   .                     ./
+            . _                  .-
+              '`--._,dd###pp=""'
 ```
 
 The preview is intentionally fictional. The configuration itself reports your own machine when you run it.
