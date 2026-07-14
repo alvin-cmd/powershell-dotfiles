@@ -4,9 +4,7 @@ A small Windows-first PowerShell setup with a clean prompt, useful shell integra
 
 ## Preview
 
-![Color terminal preview](assets/preview.svg)
-
-The preview is intentionally fictional. The configuration itself reports your own machine when you run it.
+![Color terminal preview](assets/preview.png)
 
 ## Included
 
@@ -43,4 +41,4 @@ git clone https://github.com/alvin-cmd/powershell-dotfiles "$HOME\dotfiles"
 
 - This is a Windows PowerShell 7 setup.
 - The Fastfetch label is deliberately generic; no real host name or hardware details are stored here.
-- Make changes in this repository after installing it—the linked files update immediately.
+- Make changes in this repository after installing it. The linked files update immediately.
