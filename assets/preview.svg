@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="820" viewBox="0 0 1500 820" role="img" aria-labelledby="title description">
+  <title id="title">PowerShell Fastfetch preview</title>
+  <desc id="description">A fictional, high-end Windows PowerShell setup rendered in the style of a terminal.</desc>
+  <rect width="1500" height="820" fill="#1e1e2e"/>
+  <rect x="26" y="26" width="1448" height="768" rx="16" fill="#181825" stroke="#313244" stroke-width="2"/>
+  <circle cx="58" cy="58" r="9" fill="#f38ba8"/><circle cx="86" cy="58" r="9" fill="#f9e2af"/><circle cx="114" cy="58" r="9" fill="#a6e3a1"/>
+  <text x="146" y="64" fill="#cdd6f4" font-family="JetBrains Mono, Consolas, monospace" font-size="20" font-weight="700">PowerShell</text>
+  <g fill="#74c7ec" font-family="JetBrains Mono, Consolas, monospace" font-size="19" font-weight="700" xml:space="preserve">
+    <text x="62" y="120">              _-o#&amp;&amp;*''''?d:&gt;b\_</text>
+    <text x="62" y="145">          _o/"`''  '',, dMF9MMMMMHo_</text>
+    <text x="62" y="170">       .o&amp;#'        `"MbHMMMMMMMMMMMHo.</text>
+    <text x="62" y="195">     .o"" '         vodM*$$&amp;&amp;HMMMMMMMMMM?.</text>
+    <text x="62" y="220">    ,'              $$M&amp;ood,~'`(&amp;##MMMMMMH\</text>
+    <text x="62" y="245">   /               ,MMMMMMM#b?#bobMMMMHMMML</text>
+    <text x="62" y="270">  &amp;              ?MMMMMMMMMMMMMMMMM7MMM$$R*Hk</text>
+    <text x="62" y="295"> ?$$.            :MMMMMMMMMMMMMMMMMMM/HMMM|`*L</text>
+    <text x="62" y="320">|               |MMMMMMMMMMMMMMMMMMMMbMH'   T,</text>
+    <text x="62" y="345">$$H#:            `*MMMMMMMMMMMMMMMMMMMMb#}'  `?</text>
+    <text x="62" y="370">]MMH#             ""*""""*#MMMMMMMMMMMMM'    -</text>
+    <text x="62" y="395">MMMMMb_                   |MMMMMMMMMMMP'     :</text>
+    <text x="62" y="420">HMMMMMMMHo                 `MMMMMMMMMT       .</text>
+    <text x="62" y="445">?MMMMMMMMP                  9MMMMMMMM}       -</text>
+    <text x="62" y="470">-?MMMMMMM                  |MMMMMMMMM?,d-    '</text>
+    <text x="62" y="495"> :|MMMMMM-                 `MMMMMMMT .M|.   :</text>
+    <text x="62" y="520">  .9MMM[                    &amp;MMMMM*' `'    .</text>
+    <text x="62" y="545">   :9MMk                    `MMM#"        -</text>
+    <text x="62" y="570">     &amp;M}                     `          .-</text>
+    <text x="62" y="595">      `&amp;.                             .</text>
+    <text x="62" y="620">        `~,   .                     ./</text>
+    <text x="62" y="645">            . _                  .-</text>
+    <text x="62" y="670">              '`--._,dd###pp=""'</text>
+  </g>
+  <g font-family="JetBrains Mono, Consolas, monospace" font-size="19" xml:space="preserve">
+    <text x="720" y="120" fill="#89dceb" font-weight="700">alvin</text><text x="784" y="120" fill="#cba6f7" font-weight="700">@</text><text x="802" y="120" fill="#b4befe" font-weight="700">Alvin</text>
+    <text x="720" y="146" fill="#cdd6f4">────────────────────────────────────</text>
+    <text x="720" y="178" fill="#89dceb" font-weight="700">OS</text><text x="810" y="178" fill="#cdd6f4">Windows 11 Pro 25H2 x86_64</text>
+    <text x="720" y="206" fill="#89dceb" font-weight="700">Host</text><text x="810" y="206" fill="#cdd6f4">NOVA-STATION X1</text>
+    <text x="720" y="234" fill="#89dceb" font-weight="700">Kernel</text><text x="810" y="234" fill="#cdd6f4">WIN32_NT 10.0.26100.1</text>
+    <text x="720" y="262" fill="#89dceb" font-weight="700">Uptime</text><text x="810" y="262" fill="#cdd6f4">2 hours, 14 mins</text>
+    <text x="720" y="290" fill="#89dceb" font-weight="700">Packages</text><text x="850" y="290" fill="#cdd6f4">187 (winget, choco)</text>
+    <text x="720" y="318" fill="#cdd6f4">────────────────────────────────────</text>
+    <text x="720" y="350" fill="#89dceb" font-weight="700">Shell</text><text x="810" y="350" fill="#cdd6f4">PowerShell 7.6.3</text>
+    <text x="720" y="378" fill="#89dceb" font-weight="700">Terminal</text><text x="850" y="378" fill="#cdd6f4">Windows Terminal 1.25</text>
+    <text x="720" y="406" fill="#89dceb" font-weight="700">Font</text><text x="810" y="406" fill="#cdd6f4">JetBrainsMono Nerd Font (12pt)</text>
+    <text x="720" y="434" fill="#89dceb" font-weight="700">Term theme</text><text x="850" y="434" fill="#cdd6f4">Catppuccin Mocha [Dark]</text>
+    <text x="720" y="462" fill="#cdd6f4">────────────────────────────────────</text>
+    <text x="720" y="494" fill="#89dceb" font-weight="700">Board</text><text x="810" y="494" fill="#cdd6f4">ASUS Pro WS WRX90E-SAGE SE</text>
+    <text x="720" y="522" fill="#89dceb" font-weight="700">CPU</text><text x="810" y="522" fill="#cdd6f4">AMD Ryzen Threadripper PRO 9995WX (192)</text>
+    <text x="720" y="550" fill="#89dceb" font-weight="700">GPU</text><text x="810" y="550" fill="#cdd6f4">NVIDIA RTX PRO 6000 Blackwell (96 GiB)</text>
+    <text x="720" y="578" fill="#89dceb" font-weight="700">Memory</text><text x="850" y="578" fill="#cdd6f4">64.0 GiB / 512.0 GiB (12%)</text>
+    <text x="720" y="606" fill="#cdd6f4">────────────────────────────────────</text>
+    <text x="720" y="638" fill="#89dceb" font-weight="700">Disk</text><text x="810" y="638" fill="#cdd6f4">1.86 TiB / 8.00 TiB (23%) - NTFS</text>
+    <text x="720" y="666" fill="#89dceb" font-weight="700">Disk</text><text x="810" y="666" fill="#cdd6f4">4.02 TiB / 16.0 TiB (25%) - NTFS</text>
+    <text x="720" y="694" fill="#89dceb" font-weight="700">Disk</text><text x="810" y="694" fill="#cdd6f4">8.00 TiB / 32.0 TiB (25%) - NTFS</text>
+  </g>
+  <text x="62" y="750" fill="#a6e3a1" font-family="JetBrains Mono, Consolas, monospace" font-size="19" font-weight="700">➜</text>
+  <rect x="92" y="733" width="14" height="24" fill="#cdd6f4"/>
+</svg>
