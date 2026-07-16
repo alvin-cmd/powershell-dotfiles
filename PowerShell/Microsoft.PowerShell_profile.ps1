@@ -1,4 +1,4 @@
-# OseSem-inspired PowerShell setup.
+# PowerShell setup.
 $configRoot = Join-Path $HOME ".config"
 $themePath = Join-Path $configRoot "oh-my-posh\star.omp.json"
 if ((Get-Command oh-my-posh -ErrorAction SilentlyContinue) -and (Test-Path $themePath)) {
