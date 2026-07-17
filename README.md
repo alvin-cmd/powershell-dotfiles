@@ -28,14 +28,15 @@ git clone https://github.com/alvin-cmd/powershell-dotfiles "$HOME\dotfiles"
 
 ## Larp mode
 
-Want the globe and your own `user@pc` title with a fictional high-end spec sheet? Install with `-Larp` instead:
+Want the globe and your own `user@pc` title with a fictional high-end spec sheet? On a fresh machine, run this whole block:
 
 ```powershell
+winget install JanDeDobbeleer.OhMyPosh ajeetdsouza.zoxide fastfetch-cli.fastfetch astral-sh.uv
 git clone https://github.com/alvin-cmd/powershell-dotfiles "$HOME\dotfiles"
 & "$HOME\dotfiles\install.ps1" -Force -Larp
 ```
 
-Run the normal `-Force` command again to switch back to real system information.
+If the tools and repository are already installed, run only the last line. Run the normal `-Force` command again to switch back to real system information.
 
 ## Layout
 
