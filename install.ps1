@@ -1,7 +1,8 @@
 [CmdletBinding()]
 param(
     [switch]$Force,
-    [switch]$Larp
+    [switch]$Larp,
+    [switch]$SkipTerminalAppearance
 )
 
 $ErrorActionPreference = 'Stop'
@@ -36,4 +37,8 @@ foreach ($source in $links.Keys) {
 
     New-Item -ItemType HardLink -Path $destination -Target $source | Out-Null
     Write-Host "Linked: $destination"
+}
+
+if (-not $SkipTerminalAppearance) {
+    & (Join-Path $repoRoot 'WindowsTerminal\Set-Acrylic.ps1')
 }

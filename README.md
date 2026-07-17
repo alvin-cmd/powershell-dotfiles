@@ -19,19 +19,19 @@ A small Windows-first PowerShell setup with a clean prompt, useful shell integra
 Install the optional tools you want first. The profile checks for each command, so missing tools are simply skipped.
 
 ```powershell
-winget install JanDeDobbeleer.OhMyPosh ajeetdsouza.zoxide fastfetch-cli.fastfetch astral-sh.uv
+winget install Microsoft.WindowsTerminal JanDeDobbeleer.OhMyPosh ajeetdsouza.zoxide fastfetch-cli.fastfetch astral-sh.uv
 git clone https://github.com/alvin-cmd/powershell-dotfiles "$HOME\dotfiles"
 & "$HOME\dotfiles\install.ps1" -Force
 ```
 
-`install.ps1` creates hard links for the PowerShell profile and configuration files. Existing files are backed up with a timestamp when `-Force` is supplied. Re-run it after cloning on another Windows machine.
+`install.ps1` creates hard links for the PowerShell profile and configuration files. It also enables 85% acrylic transparency for Windows Terminal and backs up existing settings before changing them. Restart Windows Terminal after installing. Use `-SkipTerminalAppearance` to leave Windows Terminal unchanged.
 
 ## Larp mode
 
 Want the globe and your own `user@pc` title with a fictional high-end spec sheet? On a fresh machine, run this whole block:
 
 ```powershell
-winget install JanDeDobbeleer.OhMyPosh ajeetdsouza.zoxide fastfetch-cli.fastfetch astral-sh.uv
+winget install Microsoft.WindowsTerminal JanDeDobbeleer.OhMyPosh ajeetdsouza.zoxide fastfetch-cli.fastfetch astral-sh.uv
 git clone https://github.com/alvin-cmd/powershell-dotfiles "$HOME\dotfiles"
 & "$HOME\dotfiles\install.ps1" -Force -Larp
 ```
@@ -51,8 +51,10 @@ Run the normal `-Force` command again to switch back to real system information.
 .
 ├── .config/
 │   ├── fastfetch/config.jsonc
+│   ├── fastfetch/larp.jsonc
 │   └── oh-my-posh/star.omp.json
 ├── PowerShell/Microsoft.PowerShell_profile.ps1
+├── WindowsTerminal/Set-Acrylic.ps1
 └── install.ps1
 ```
 
