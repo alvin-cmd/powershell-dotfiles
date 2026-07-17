@@ -1,13 +1,15 @@
 [CmdletBinding()]
 param(
-    [switch]$Force
+    [switch]$Force,
+    [switch]$Larp
 )
 
 $ErrorActionPreference = 'Stop'
 $repoRoot = $PSScriptRoot
+$fastfetchConfig = if ($Larp) { 'larp.jsonc' } else { 'config.jsonc' }
 $links = @{
     (Join-Path $repoRoot 'PowerShell\Microsoft.PowerShell_profile.ps1') = $PROFILE.CurrentUserCurrentHost
-    (Join-Path $repoRoot '.config\fastfetch\config.jsonc') = (Join-Path $HOME '.config\fastfetch\config.jsonc')
+    (Join-Path $repoRoot ".config\fastfetch\$fastfetchConfig") = (Join-Path $HOME '.config\fastfetch\config.jsonc')
     (Join-Path $repoRoot '.config\fastfetch\earth.txt') = (Join-Path $HOME '.config\fastfetch\earth.txt')
     (Join-Path $repoRoot '.config\oh-my-posh\star.omp.json') = (Join-Path $HOME '.config\oh-my-posh\star.omp.json')
 }

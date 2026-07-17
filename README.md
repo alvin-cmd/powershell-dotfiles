@@ -24,7 +24,18 @@ git clone https://github.com/alvin-cmd/powershell-dotfiles "$HOME\dotfiles"
 & "$HOME\dotfiles\install.ps1" -Force
 ```
 
-`install.ps1` creates hard links for the PowerShell profile and the two configuration files. Existing files are backed up with a timestamp when `-Force` is supplied. Re-run it after cloning on another Windows machine.
+`install.ps1` creates hard links for the PowerShell profile and configuration files. Existing files are backed up with a timestamp when `-Force` is supplied. Re-run it after cloning on another Windows machine.
+
+## Larp mode
+
+Want the globe and your own `user@pc` title with a fictional high-end spec sheet? Install with `-Larp` instead:
+
+```powershell
+git clone https://github.com/alvin-cmd/powershell-dotfiles "$HOME\dotfiles"
+& "$HOME\dotfiles\install.ps1" -Force -Larp
+```
+
+Run the normal `-Force` command again to switch back to real system information.
 
 ## Layout
 
