@@ -36,7 +36,14 @@ git clone https://github.com/alvin-cmd/powershell-dotfiles "$HOME\dotfiles"
 & "$HOME\dotfiles\install.ps1" -Force -Larp
 ```
 
-If the tools and repository are already installed, run only the last line. Run the normal `-Force` command again to switch back to real system information.
+If `$HOME\dotfiles` already exists, do not clone again. Update it and switch modes with:
+
+```powershell
+git -C "$HOME\dotfiles" pull
+& "$HOME\dotfiles\install.ps1" -Force -Larp
+```
+
+Run the normal `-Force` command again to switch back to real system information.
 
 ## Layout
 
