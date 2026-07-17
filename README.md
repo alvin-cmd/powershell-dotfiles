@@ -10,7 +10,7 @@ A small Windows-first PowerShell setup with a clean prompt, useful shell integra
 
 - Oh My Posh prompt with path, Git state, Node version, and exit status
 - UTF-8 console defaults and Windows Terminal working-directory handoff
-- Fastfetch greeting using the `alvin@Alvin` label
+- Fastfetch greeting using the current Windows user and PC name
 - zoxide, Chocolatey, uv, and uvx integrations when installed
 - `py` alias for Python and `venv` helper for the local `.venv`
 
@@ -40,5 +40,5 @@ git clone https://github.com/alvin-cmd/powershell-dotfiles "$HOME\dotfiles"
 ## Notes
 
 - This is a Windows PowerShell 7 setup.
-- The Fastfetch label is deliberately generic; no real host name or hardware details are stored here.
+- The Fastfetch title uses the current Windows user and PC name; no identity is stored in the configuration.
 - Make changes in this repository after installing it. The linked files update immediately.
