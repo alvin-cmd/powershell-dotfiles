@@ -26,6 +26,8 @@ git clone https://github.com/alvin-cmd/powershell-dotfiles "$HOME\dotfiles"
 
 `install.ps1` creates hard links for the PowerShell profile and configuration files. It also enables 85% acrylic transparency for Windows Terminal and backs up existing settings before changing them. Restart Windows Terminal after installing. Use `-SkipTerminalAppearance` to leave Windows Terminal unchanged.
 
+The installer is safe to re-run. Use `-Force` when replacing an existing file or switching to a different checkout.
+
 ## Larp mode
 
 Want the globe and your own `user@pc` title with a fictional high-end spec sheet? On a fresh machine, run this whole block:
